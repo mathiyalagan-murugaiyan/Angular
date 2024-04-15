@@ -1,7 +1,7 @@
 <div class="h1 text-center text-info">Login Form</div>
 <div class="container d-flex justify-content-center mt-5 border rounded-3 border-info w-50 h-100">
   <div class="row">
-    <div class="col-lg-8 col-md-10 col-sm-12"> <!-- Adjust column widths based on your design -->
+    <div class="col-lg-8 col-md-10 col-sm-12"> 
       <form [formGroup]="loginForm">
         <div class="form-group mb-4">
           <input type="text" class="form-control" placeholder="Username" formControlName="username">
@@ -17,6 +17,10 @@
         </div>
         <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary">Login</button>
       </form>
+  
     </div>
+   
   </div>
+ 
 </div>
+
